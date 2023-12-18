@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def home(request):
-    olha = {'text':'Um texto foda', 'title':'Home'}
+    olha = {'title':'Home'}
     return render(
         request,
         'home/index.html',
