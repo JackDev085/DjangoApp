@@ -1,4 +1,10 @@
 {% include "global/partials/head.html" %}
-  <h1>{% block texto %}base{% endblock texto %}</h1>
+{% include "global/partials/menu.html" %}
+<h1>{% block texto %}base{% endblock texto %}</h1>
+
+<main class="content">
+  {% block posts %}Isso é um post{% endblock posts %}
+</main>
+
 </body>
 </html>
